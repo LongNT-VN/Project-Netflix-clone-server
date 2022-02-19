@@ -1,6 +1,6 @@
 const express = require('express');
-const { updateMovie,getMovie, deleteMovie, getAllMovie, createMovie, getRandomMovie } = require('../controllers/movie');
-const verifyToken = require('../middlewares/verifyToken');
+const { updateMovie,getMovie, deleteMovie, getAllMovie, createMovie, getRandomMovie } = require('../controllers/movie.js');
+const verifyToken = require('../middlewares/verifyToken.js');
 const router = express.Router();
 
 

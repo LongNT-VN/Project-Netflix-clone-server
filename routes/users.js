@@ -1,6 +1,6 @@
 const express = require('express');
-const { updateUser,getUser, deleteUser, getAllUser, statsUser } = require('../controllers/user');
-const verifyToken = require('../middlewares/verifyToken');
+const { updateUser,getUser, deleteUser, getAllUser, statsUser } = require('../controllers/user.js');
+const verifyToken = require('../middlewares/verifyToken.js');
 const router = express.Router();
 
 //Update User

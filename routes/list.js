@@ -1,6 +1,6 @@
 const express = require('express');
-const { updateList,getList, deleteList, createList } = require('../controllers/List');
-const verifyToken = require('../middlewares/verifyToken');
+const { updateList,getList, deleteList, createList } = require('../controllers/list.js');
+const verifyToken = require('../middlewares/verifyToken.js');
 const router = express.Router();
 
 
